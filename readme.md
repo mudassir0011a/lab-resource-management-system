@@ -1,11 +1,3 @@
-Theek.
-Neeche **POORA READY-TO-COPY README** de raha hoon — **pure English**, **non-coder friendly**, **end-to-end**, aur **last me Q&A bhi included**.
-Tu **direct copy-paste** kar sakta hai into `README.md` **ya PDF me convert** kar sakta hai.
-
-No missing parts. No assumptions.
-
----
-
 # 📘 Lab Resource Management System
 
 **Complete Project Documentation & User Guide**
@@ -490,48 +482,56 @@ It is ideal for:
 
 ---
 
-## 🔁 Simplified Explanation (Hinglish Version for Indian Students)
+Theek.
+Main **2 kaam ek saath** kar raha hoon, clearly aur clean way me:
 
-The following section explains the same project in very simple Hinglish language,
-especially for Indian students who are new to web development and programming.
+1️⃣ **Tera poora Hinglish README ko PROPER, polished, professional Markdown me rewrite**
+2️⃣ **Exactly bataunga images KAHAN aur KAISE daalne hain** (with example)
 
-
-Samjha.
-Ab **coding khatam**, ab **presentation + explanation ka game** hai.
-Main yahan **ek NON-CODER ke liye** likh raha hoon — jisko sirf itna pata hai ki *Python, Flask, HTML* kya hote hain, **kaise kaam karte hain nahi**.
-
-Neeche jo milega wo tu:
-
-* **README.md** ke taur pe use kar sakta hai
-* **Project report** ke taur pe submit kar sakta hai
-* **PDF me convert** kar sakta hai (later)
-
-Language intentionally **simple + long + step-by-step** rakhi hai.
-Koi jargon skip nahi kiya.
+Tu **direct copy-paste** kar sakta hai. No extra thinking.
 
 ---
 
-# 📘 LAB RESOURCE MANAGEMENT SYSTEM
+# ✅ PART 1: CLEAN & PROFESSIONAL HINGLISH README (FINAL)
 
-### (Complete Project Documentation & User Guide)
+👉 **Isko seedha README.md me paste kar**
+👉 Headings, spacing, bullets sab GitHub-friendly hain
+
+---
+
+```md
+## 🔁 Simplified Explanation (Hinglish Version for Indian Students)
+
+This section explains the same project in **simple Hinglish language**,  
+especially for Indian students who are **new to web development** and **non-coders**.
+
+Agar aapko sirf itna pata hai ki **Python, Flask, HTML, CSS** kya hote hain  
+lekin yeh kaise kaam karte hain nahi pata — toh yeh section aapke liye hai.
+
+---
+
+# 📘 LAB RESOURCE MANAGEMENT SYSTEM  
+### (Complete Project Documentation & User Guide – Hinglish)
 
 ---
 
 ## 1️⃣ INTRODUCTION
 
-### What is this project?
+### Yeh project kya hai?
 
-**Lab Resource Management System** ek simple web application hai jo college ke laboratory resources ko manage karne ke liye banaya gaya hai.
+**Lab Resource Management System** ek simple web application hai  
+jo college ke laboratory resources ko manage karne ke liye banaya gaya hai.
 
 Is system ka use karke hum:
 
-* Lab ke computers
-* Projectors
-* Other lab equipment
+- Lab ke computers  
+- Projectors  
+- Other lab equipment  
 
 ko **track**, **assign**, **release**, aur **delete** kar sakte hain.
 
-Yeh project specially **educational institutions** ke liye design kiya gaya hai jahan resources manually manage karne me confusion hota hai.
+Yeh project specially **educational institutions** ke liye design kiya gaya hai  
+jahan resources manually manage karne me confusion hota hai.
 
 ---
 
@@ -539,12 +539,12 @@ Yeh project specially **educational institutions** ke liye design kiya gaya hai 
 
 Normally college labs me:
 
-* Yeh clear nahi hota kaunsa resource available hai
-* Kaunsa resource kisi student ya faculty ko diya gaya hai
-* Galti se same resource do logon ko assign ho jaata hai
-* Record maintain karna difficult hota hai
+- Yeh clear nahi hota kaunsa resource available hai  
+- Kaunsa resource kisi student ya faculty ko diya gaya hai  
+- Galti se same resource do logon ko assign ho jaata hai  
+- Record maintain karna difficult hota hai  
 
-Is project ka goal hai:
+Is project ka main goal hai:
 
 > **Lab resources ka ek central system banana jisse availability, allocation aur control easily ho sake.**
 
@@ -552,22 +552,20 @@ Is project ka goal hai:
 
 ## 3️⃣ WHO CAN USE THIS SYSTEM?
 
-Is system me **coding knowledge ki zarurat nahi** hai.
+Is system ko use karne ke liye **coding knowledge zaroori nahi** hai.
 
 ### User Types:
 
-#### 1️⃣ Admin
+### 🔹 1️⃣ Admin
+- System ka full control hota hai  
+- Resource add kar sakta hai  
+- Resource delete kar sakta hai  
+- Resource assign aur release kar sakta hai  
 
-* System ka full control
-* Resource add kar sakta hai
-* Resource delete kar sakta hai
-* Resource assign aur release kar sakta hai
-
-#### 2️⃣ Staff
-
-* Resource dekh sakta hai
-* Resource assign aur release kar sakta hai
-* ❌ Resource add ya delete nahi kar sakta
+### 🔹 2️⃣ Staff
+- Resources dekh sakta hai  
+- Resource assign aur release kar sakta hai  
+- ❌ Resource add ya delete nahi kar sakta  
 
 > Yeh role separation system ko secure aur professional banata hai.
 
@@ -575,13 +573,13 @@ Is system me **coding knowledge ki zarurat nahi** hai.
 
 ## 4️⃣ TECHNOLOGY USED (Simple Explanation)
 
-| Technology | Use                                          |
-| ---------- | -------------------------------------------- |
-| **Python** | Backend logic ke liye                        |
-| **Flask**  | Web framework (Python ko website banata hai) |
-| **HTML**   | Website structure                            |
-| **CSS**    | Website ka design                            |
-| **SQLite** | Database (data store karne ke liye)          |
+| Technology | Use |
+|-----------|-----|
+| **Python** | Backend logic ke liye |
+| **Flask** | Python ko website banane ke liye |
+| **HTML** | Website ka structure |
+| **CSS** | Website ka design |
+| **SQLite** | Database (data store karne ke liye) |
 
 > SQLite ek lightweight database hai jo beginners ke liye best hota hai.
 
@@ -590,6 +588,7 @@ Is system me **coding knowledge ki zarurat nahi** hai.
 ## 5️⃣ PROJECT STRUCTURE (Folder Explanation)
 
 ```
+
 lab_resource_system/
 │
 ├── app.py
@@ -603,15 +602,16 @@ lab_resource_system/
 │   └── assign_resource.html
 │
 └── static/
-    └── style.css
-```
+└── style.css
 
-### File ka kaam:
+````
 
-* **app.py** → main program (brain of system)
-* **database.db** → saara data store hota hai
-* **templates/** → website ke pages
-* **static/style.css** → website ka look & design
+### Files ka kaam:
+
+- **app.py** → poore system ka brain  
+- **database.db** → saara data yahan store hota hai  
+- **templates/** → website ke pages  
+- **static/style.css** → website ka design  
 
 ---
 
@@ -619,41 +619,38 @@ lab_resource_system/
 
 Is project me **sirf 3 tables** hain.
 
-### 1️⃣ users table
+### 🔹 users table
+Students aur faculty jinko resources assign hote hain.
 
-Stores students & faculty jinko resource assign hota hai.
-
-| Column | Description       |
-| ------ | ----------------- |
-| id     | Unique ID         |
-| name   | User name         |
-| role   | Student / Faculty |
+| Column | Description |
+|------|-------------|
+| id | Unique user ID |
+| name | User ka naam |
+| role | Student / Faculty |
 
 ---
 
-### 2️⃣ resources table
+### 🔹 resources table
+Lab ke saare resources.
 
-Lab ke resources store karta hai.
-
-| Column        | Description                      |
-| ------------- | -------------------------------- |
-| id            | Resource ID                      |
-| resource_name | Resource ka naam                 |
+| Column | Description |
+|-------|-------------|
+| id | Resource ID |
+| resource_name | Resource ka naam |
 | resource_type | Computer / Projector / Equipment |
-| status        | Available / Allocated            |
+| status | Available / Allocated |
 
 ---
 
-### 3️⃣ allocations table
-
+### 🔹 allocations table
 Kaunsa resource kis user ko diya gaya.
 
-| Column        | Description        |
-| ------------- | ------------------ |
-| id            | Allocation ID      |
-| user_id       | User reference     |
-| resource_id   | Resource reference |
-| assigned_date | Date of allocation |
+| Column | Description |
+|-------|-------------|
+| id | Allocation ID |
+| user_id | User reference |
+| resource_id | Resource reference |
+| assigned_date | Date |
 
 ---
 
@@ -661,95 +658,63 @@ Kaunsa resource kis user ko diya gaya.
 
 ### Login Credentials:
 
-| Role  | Username | Password |
-| ----- | -------- | -------- |
-| Admin | admin    | admin123 |
-| Staff | staff    | staff123 |
+| Role | Username | Password |
+|----|---------|----------|
+| Admin | admin | admin123 |
+| Staff | staff | staff123 |
 
 ### Login Flow:
-
-1. User website open karta hai
-2. Login page dikhta hai
-3. Correct ID/password dalta hai
-4. Dashboard open hota hai
-5. Logout karne pe login page wapas
+1. Website open karo  
+2. Login page dikhega  
+3. Username aur password daalo  
+4. Dashboard open hoga  
+5. Logout karne pe login page wapas  
 
 ---
 
-🔹 Users ko kaise add kare? (Students / Faculty)
+## 🔹 Users kaise add kare? (Students / Faculty)
 
-Is system me Users ka matlab hai woh log jinko lab resources assign kiye jaate hain, jaise:
+Users ka matlab hai **students aur faculty** jinko lab resources assign kiye jaate hain.  
+⚠️ Yeh users **login nahi karte**.
 
-Students
+### Method: SQLite Database se Users add karna
 
-Faculty members
+#### Step 1: Terminal open karo  
+Project folder me jao jahan `database.db` file hai.
 
-Yeh users login users nahi hote.
-Yeh sirf resource allocation ke purpose ke liye hote hain.
-
-🔸 Method: SQLite Database se Users add karna (Simple aur Recommended)
-
-Is method ke liye coding knowledge ki bilkul zarurat nahi hai.
-
-Step 1: Command Prompt / Terminal open karo
-
-Project ke us folder me jao jahan database.db file present hai.
-
-Step 2: SQLite database open karo
-
-Neeche diya gaya command run karo:
-
+#### Step 2: SQLite open karo
+```bash
 sqlite3 database.db
+````
 
-Step 3: Users add karo using simple commands
+#### Step 3: Users add karo
+
+```sql
 INSERT INTO users (name, role) VALUES ('Ali', 'Student');
 INSERT INTO users (name, role) VALUES ('Sara', 'Student');
 INSERT INTO users (name, role) VALUES ('Prof. Khan', 'Faculty');
 INSERT INTO users (name, role) VALUES ('Prof. Mehta', 'Faculty');
+```
 
+#### Step 4: Exit
 
-Isse naye students aur faculty database me add ho jaayenge.
-
-Step 4: SQLite se exit karo
+```sql
 .exit
+```
 
+Assign Resource page refresh karo — users dropdown me dikhne lagenge.
 
-Ab Assign Resource page ko refresh karo.
-Naye users dropdown list me automatically dikhne lagenge.
-
-🔸 Important Notes (Users ke baare me)
-
-Users ka data database me store hota hai
-
-Users system me login nahi karte
-
-Login sirf Admin aur Staff ke liye hota hai
-
-Users ka use sirf lab resources assign karne ke liye hota hai
-
-🔸 “Add User” ka separate page kyun nahi banaya?
-
-Yeh project basic academic level ke liye banaya gaya hai, isliye:
-
-Project ka main focus resource management hai
-
-Users ka data simple hai (sirf name aur role)
-
-Extra “Add User” page banane se project unnecessary complex ho jaata
-
-Isliye users ko directly database se add karna simple aur sufficient hai.
+---
 
 ## 8️⃣ DASHBOARD EXPLANATION
 
-Dashboard system ka **summary view** deta hai.
-
-### Dashboard shows:
+Dashboard ek **summary view** deta hai:
 
 * Total Resources
 * Available Resources
 * Allocated Resources
 
-Yeh admin aur staff dono ke liye useful hai.
+Admin aur Staff dono ke liye useful.
 
 ---
 
@@ -761,12 +726,10 @@ Admin:
 * Resource type select karta hai
 * Submit karta hai
 
-System automatically:
+System:
 
-* Resource ko database me save karta hai
+* Resource database me save karta hai
 * Status = Available set karta hai
-
-Staff ko yeh page dikhta hi nahi.
 
 ---
 
@@ -775,13 +738,13 @@ Staff ko yeh page dikhta hi nahi.
 Is page pe:
 
 * Saare resources list hote hain
-* Unka status dikhta hai
+* Status dikhta hai
 * Actions available hote hain
 
-### Actions:
+Actions:
 
-* **Release** → allocated resource ko free karna
-* **Delete** → sirf admin aur sirf available resource
+* **Release** → resource free karna
+* **Delete** → sirf admin, sirf available resource
 
 ---
 
@@ -789,65 +752,22 @@ Is page pe:
 
 Steps:
 
-1. User select karo (Student/Faculty)
+1. User select karo
 2. Available resource select karo
 3. Assign button click karo
 
-System:
-
-* Resource status = Allocated karta hai
-* Allocation record save karta hai
+System resource ko **Allocated** mark karta hai.
 
 ---
 
-## 1️⃣2️⃣ DELETE RESOURCE LOGIC (Safety Feature)
+## 1️⃣2️⃣ HOW TO RUN THIS PROJECT
 
-Rules:
-
-* Sirf **admin** delete kar sakta hai
-* Allocated resource delete nahi hota
-* Data integrity maintain hoti hai
-
----
-
-## 1️⃣3️⃣ UI & DESIGN LOGIC
-
-UI intentionally:
-
-* Simple
-* Clean
-* Professional
-* Non-technical user friendly
-
-Buttons:
-
-* Dashboard → Dark
-* Add Resource → Blue
-* View → Teal
-* Assign → Purple
-* Delete/Logout → Red
-
----
-
-## 1️⃣4️⃣ HOW TO RUN THIS PROJECT (STEP-BY-STEP)
-
-### Step 1: Install Python
-
-* Python 3.x install karo
-
-### Step 2: Install Flask
-
-```
+```bash
 pip install flask
-```
-
-### Step 3: Run Project
-
-```
 python app.py
 ```
 
-### Step 4: Open Browser
+Browser me open karo:
 
 ```
 http://127.0.0.1:5000
@@ -855,44 +775,28 @@ http://127.0.0.1:5000
 
 ---
 
-## 1️⃣5️⃣ SAMPLE USE CASE
-
-> “A lab has 10 computers.
-> 6 are available, 4 are allocated.
-> Admin checks dashboard, assigns one computer to a faculty member, later releases it.”
-
-System ensures:
-
-* No double allocation
-* Proper record
-* Clear visibility
-
----
-
-## 1️⃣6️⃣ CONCLUSION
-
-This project:
-
-* Solves real college problem
-* Easy to use
-* Secure & controlled
-* Beginner friendly
-* Expandable in future
-
-Future scope:
-
-* Reports
-* History page
-* Student login (optional)
-
----
-
 ## ⭐ FINAL NOTE
 
-Yeh project **coding ke show-off ke liye nahi**,
+Yeh project **show-off ke liye nahi**,
 **real system samajhne ke liye** banaya gaya hai.
 
-Isliye:
+> **Simple + Clean + Logical = Best academic project**
 
-> Simple + Clean + Logical = Best academic project
 
+``md
+## 📸 Application Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Add Resource (Admin Only)
+![Add Resource](screenshots/add_resource.png)
+
+### View Resources
+![View Resources](screenshots/view_resource.png)
+
+### Assign Resource
+![Assign Resource](screenshots/assign_resource.png)
