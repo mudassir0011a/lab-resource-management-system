@@ -782,8 +782,6 @@ Yeh project **show-off ke liye nahi**,
 
 > **Simple + Clean + Logical = Best academic project**
 
-
-``md
 ## 📸 Application Screenshots
 
 ### Login Page
