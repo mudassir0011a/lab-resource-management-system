@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Resource</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Add Resource</h2>
+
+        <form method="post">
+            <label>Resource Name</label>
+            <input type="text" name="name" placeholder="Enter resource name" required>
+
+            <label>Resource Type</label>
+            <select name="type" required>
+                <option value="">Select type</option>
+                <option>Computer</option>
+                <option>Projector</option>
+                <option>Equipment</option>
+            </select>
+
+            <button type="submit">Add Resource</button>
+        </form>
+
+        <div class="nav">
+            <a href="/">Dashboard</a>
+
+            {% if session.user_role == 'admin' %}
+            <a href="/add-resource">Add Resource</a>
+            {% endif %}
+
+            <a href="/resources">View Resources</a>
+            <a href="/assign">Assign Resource</a>
+            <a href="/logout">Logout</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

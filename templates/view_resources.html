@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>View Resources</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>All Resources</h2>
+
+        <table>
+            <tr>
+                <th>Resource Name</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+            {% for r in resources %}
+            <tr>
+                <td>{{ r.resource_name }}</td>
+                <td>{{ r.resource_type }}</td>
+                <td>{{ r.status }}</td>
+                <td>
+                    {% if r.status == 'allocated' %}
+                    <a href="/release/{{ r.id }}">Release</a>
+                    {% else %}
+                    {% if session.user_role == 'admin' %}
+                    <a href="/delete-resource/{{ r.id }}">Delete</a>
+                    {% else %}
+                    -
+                    {% endif %}
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <div class="nav">
+            <a href="/">Dashboard</a>
+
+            {% if session.user_role == 'admin' %}
+            <a href="/add-resource">Add Resource</a>
+            {% endif %}
+
+            <a href="/resources">View Resources</a>
+            <a href="/assign">Assign Resource</a>
+            <a href="/logout">Logout</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
